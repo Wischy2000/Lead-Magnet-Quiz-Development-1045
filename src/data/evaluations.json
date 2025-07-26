@@ -1,0 +1,101 @@
+{
+  "evaluations": [
+    {
+      "type": "HR-Verwalter:in",
+      "minPoints": 25,
+      "maxPoints": 60,
+      "shortDescription": "Solide Basis – jetzt ist Zeit für den nächsten Schritt: Du sorgst mit viel Sorgfalt und Struktur dafür, dass die grundlegenden HR-Prozesse zuverlässig laufen.",
+      "fullDescription": "Solide Basis – jetzt ist Zeit für den nächsten Schritt: Du sorgst mit viel Sorgfalt und Struktur dafür, dass die grundlegenden HR-Prozesse zuverlässig laufen. Das schafft Vertrauen und Sicherheit – eine wertvolle Basis. Gleichzeitig spürt man: Da ist noch Luft nach oben. In einer Arbeitswelt, die sich rasant verändert, braucht es mehr als gute Verwaltung. Jetzt ist der richtige Moment, um HR strategisch weiterzudenken und den nächsten Entwicklungsschritt zu gehen.",
+      "strengths": [
+        "Deine HR-Prozesse laufen sauber und zuverlässig",
+        "Du achtest auf rechtliche Sicherheit und klare Strukturen",
+        "Du kennst deine Abläufe bis ins Detail und hältst sie konsequent ein"
+      ],
+      "growthAreas": [
+        "Mach HR sichtbarer in der Unternehmensstrategie",
+        "Starte mit kleinen digitalen Tools, um Routinen zu vereinfachen",
+        "Beginne, wichtige Kennzahlen zu erfassen und auszuwerten",
+        "Tausch dich regelmäßig mit der Geschäftsleitung aus"
+      ],
+      "nextSteps": [
+        "Digitale Personalakte einführen",
+        "Ein erstes HR-Dashboard erstellen (z.B. Fluktuation, Bewerbungsquote)",
+        "Wöchentliches Meeting mit Führungskräften etablieren"
+      ],
+      "impulse": "Du hast ein stabiles Fundament – jetzt geht's ums Gestalten.",
+      "recommendation": "Besuche den HR CAMPUS 2026, um dich inspirieren zu lassen und gezielt in neue Themen wie Digital HR, strategische Personalarbeit und Change Management einzusteigen. Du wirst sehen: Der Austausch mit anderen bringt richtig Schwung in deine HR-Zukunft."
+    },
+    {
+      "type": "HR-Entwickler:in",
+      "minPoints": 61,
+      "maxPoints": 90,
+      "shortDescription": "Auf einem richtig guten Weg - Du hast verstanden: HR ist mehr als Verwaltung. Du bist offen für neue Ideen, probierst Tools aus und vernetzt dich intern.",
+      "fullDescription": "Auf einem richtig guten Weg - Du hast verstanden: HR ist mehr als Verwaltung. Du bist offen für neue Ideen, probierst Tools aus, vernetzt dich intern und schaust über den Tellerrand. Du hast die ersten Schritte in Richtung strategischer HR-Arbeit gemacht – und das mit Mut und Tatkraft. Jetzt kannst du diese Richtung festigen und deine Rolle als Mitgestalter:in weiter ausbauen.",
+      "strengths": [
+        "Du kennst aktuelle HR-Trends und gehst neue Wege",
+        "Erste digitale Lösungen sind im Einsatz",
+        "Du legst Wert auf Feedback und moderne Zusammenarbeit"
+      ],
+      "growthAreas": [
+        "Mach aus punktuellen Maßnahmen ein strategisches Gesamtbild",
+        "Gestalte die Employee Journey aktiv mit – von Bewerbung bis Entwicklung",
+        "Stärke deine Führungskräfte – emotional wie fachlich"
+      ],
+      "nextSteps": [
+        "KI-Pilot im Recruiting starten",
+        "Feedbackprozesse digitalisieren und regelmäßig nutzen",
+        "Weiterbildungsstrategie für Führungskräfte aufsetzen"
+      ],
+      "impulse": "Du bewegst was – jetzt darf's noch verbindlicher und wirkungsvoller werden.",
+      "recommendation": "Nutze den HR CAMPUS 2026, um dich fachlich und persönlich weiterzuentwickeln. Lass dich in Sessions zu New Leadership, Employee Experience und KI im HR inspirieren und finde Gleichgesinnte, die ebenfalls auf dem Weg sind, HR neu zu denken."
+    },
+    {
+      "type": "HR-Business Partner:in",
+      "minPoints": 91,
+      "maxPoints": 115,
+      "shortDescription": "Strategischer Sparringspartner mit Impact: Gratulation – du gestaltest HR auf einem hohen Niveau. Du bist eng an der Geschäftsstrategie dran.",
+      "fullDescription": "Strategischer Sparringspartner mit Impact: Gratulation – du gestaltest HR auf einem hohen Niveau. Du bist eng an der Geschäftsstrategie dran, triffst datenbasierte Entscheidungen und sorgst für eine durchdachte Mitarbeitererfahrung. Dein HR ist kein Anhängsel, sondern Teil der unternehmerischen Zukunftsplanung. Mit deinem Weitblick und deinem Verständnis für Menschen und Organisation bist du Vorbild für viele.",
+      "strengths": [
+        "HR ist bei euch strategisch eingebunden",
+        "Eure Systeme und Prozesse sind digital gut aufgestellt",
+        "Mitarbeitende erleben HR als unterstützend und zukunftsorientiert"
+      ],
+      "growthAreas": [
+        "Bestehende KI-Tools weiterentwickeln und skalieren",
+        "Vorausschauende Personalplanung mit Predictive Analytics aufbauen",
+        "Nachhaltigkeit in HR-Prozesse integrieren"
+      ],
+      "nextSteps": [
+        "Talent-Pipeline mit Daten und Prognosen steuern",
+        "Echtzeit-Auswertungen für Geschäftsentscheidungen bereitstellen",
+        "Kulturwandel aktiv mit Führungsteams gestalten"
+      ],
+      "impulse": "Du bist Treiber:in – nutze deinen Vorsprung, um noch mehr Wirkung zu entfalten.",
+      "recommendation": "Der HR CAMPUS 2026 bietet dir genau das, was du suchst: Tiefe Diskussionen, starke Impulse und Austausch mit anderen, die HR auf Top-Niveau betreiben. Teile dein Wissen, erweitere deinen Blick – und nimm neue Strategien mit zurück in dein Unternehmen."
+    },
+    {
+      "type": "HR-Innovator:in",
+      "minPoints": 116,
+      "maxPoints": 125,
+      "shortDescription": "Vorreiter:in einer neuen HR-Generation: Wow – du gestaltest HR auf einem Niveau, das Maßstäbe setzt. Du denkst voraus und probierst Neues.",
+      "fullDescription": "Vorreiter:in einer neuen HR-Generation: Wow – du gestaltest HR auf einem Niveau, das Maßstäbe setzt. Du denkst voraus, probierst Neues, und bringst Technologien, Menschen und Organisationen in Einklang. Deine Arbeit inspiriert andere und zeigt, wie HR heute zum echten Motor von Wandel und Innovation wird. Du gibst Orientierung in einer komplexen Welt und zeigst, was möglich ist.",
+      "strengths": [
+        "HR ist bei euch Innovationstreiber und strategischer Enabler",
+        "KI, Automatisierung und Menschlichkeit sind keine Gegensätze, sondern Alltag",
+        "Mitarbeitende erleben eine durchdachte, individuelle HR-Erfahrung"
+      ],
+      "growthAreas": [
+        "Teile deine Erfahrungen – in Netzwerken, auf Events, im Unternehmen",
+        "Bleib neugierig und erforsche neue HR-Technologien",
+        "Werde Mentor:in für andere, die ihren Weg erst beginnen"
+      ],
+      "nextSteps": [
+        "HR-Tech weiterdenken: von Blockchain bis Neuro-Leadership",
+        "Branchenübergreifend wirken: als Stimme für eine zukunftsfähige HR",
+        "Innovationsprojekte sichtbar machen und skalieren"
+      ],
+      "impulse": "Du bist Impulsgeber:in – für dein Unternehmen und darüber hinaus.",
+      "recommendation": "Du gehörst zu den Vordenker:innen der HR-Transformation – der HR CAMPUS 2026 ist dein Ort, um deine Ideen zu teilen, neue Visionen zu entwerfen und andere zu inspirieren. Bewirb dich als Speaker:in, Mentor:in oder Innovation Partner – und gestalte aktiv mit, was HR morgen braucht."
+    }
+  ]
+}

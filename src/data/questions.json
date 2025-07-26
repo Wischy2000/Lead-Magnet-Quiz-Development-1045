@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "section": "Strategische HR-Positionierung",
+      "question": "Welche Rolle spielt HR derzeit in deinem Unternehmen?",
+      "answers": [
+        { "id": "A", "text": "Wir kümmern uns vor allem um Verwaltung und Pflichtaufgaben.", "points": 1 },
+        { "id": "B", "text": "Wir verstehen uns als interner Dienstleister.", "points": 2 },
+        { "id": "C", "text": "Wir sind strategischer Partner mit Einfluss auf Entscheidungen.", "points": 3 },
+        { "id": "D", "text": "Wir treiben aktiv Innovationen und Veränderung mit.", "points": 4 }
+      ],
+      "checklist": [
+        "Regelmäßige Abstimmung im HR-Team über Aufgabenführung.",
+        "Einfachen Jahresübersichtsplan für HR-Aufgaben anlegen.",
+        "Verantwortliche Ansprechpersonen für Geschäftsleitung festlegen.",
+        "Quartalsberichte über HR-Aktivitäten an die Geschäftsleitung senden.",
+        "Grundlagen-Weiterbildungen im Bereich Personalstrategie besuchen.",
+        "Mit Führungskräften jährliche Workshops zu HR-Themen organisieren.",
+        "Offenheit dafür zeigen, bei unternehmensweiten Themen früh einzusteigen.",
+        "Anlaufstelle schaffen, damit Mitarbeitende HR-Themen adressieren können.",
+        "Vorschläge für Personalentwicklung proaktiv präsentieren.",
+        "Bei Pilotprojekten für die Arbeitswelt der Zukunft aktiv mitarbeiten."
+      ]
+    },
+    {
+      "section": "Strategische HR-Positionierung",
+      "question": "Wie oft bist du bei strategischen Entscheidungen eingebunden?",
+      "answers": [
+        { "id": "A", "text": "Fast nie – wir erfahren davon eher nebenbei.", "points": 1 },
+        { "id": "B", "text": "Nur bei Themen, die das Personal direkt betreffen.", "points": 2 },
+        { "id": "C", "text": "Bei größeren Veränderungen sind wir involviert.", "points": 3 },
+        { "id": "D", "text": "Wir sitzen regelmäßig mit der Geschäftsleitung am Tisch.", "points": 4 },
+        { "id": "E", "text": "Wir sind von Anfang an strategisch mitgedacht.", "points": 5 }
+      ],
+      "checklist": [
+        "Sich regelmäßig in Leitungssitzungen als Gast anmelden.",
+        "Nachfragen, ob HR-Aspekte berücksichtigt werden.",
+        "Argumente und Zahlen für HR-Themen vorbereiten.",
+        "Kontakt zu anderen Abteilungen gezielt suchen.",
+        "Austausch mit HR-Kolleg:innen anderer Firmen organisieren.",
+        "Vor strategischen Sitzungen Kurzbericht zu HR einreichen.",
+        "Wünsche des HR-Teams bündeln und gezielt darstellen.",
+        "Vorschläge machen, wie HR-Projekte strategisch eingebunden werden.",
+        "Weiterbildung zu Strategiearbeit absolvieren.",
+        "Platz in strategischen Gremien aktiv einfordern und einbringen."
+      ]
+    },
+    {
+      "section": "Strategische HR-Positionierung",
+      "question": "Wie würdest du deinen Arbeitsstil im HR am besten beschreiben?",
+      "answers": [
+        { "id": "A", "text": "Wir reagieren hauptsächlich auf Anfragen.", "points": 1 },
+        { "id": "B", "text": "Wir kümmern uns operativ um die Umsetzung.", "points": 2 },
+        { "id": "C", "text": "Wir entwickeln HR-Strategien.", "points": 3 },
+        { "id": "D", "text": "Wir gestalten aktiv die Arbeitswelt von morgen mit.", "points": 4 }
+      ],
+      "checklist": [
+        "Nach Abschluss von Aufgaben aktiv Rückmeldung einholen.",
+        "Übersicht über typische Anfragen anfertigen und Prozesse dokumentieren.",
+        "Anliegen regelmäßig erfassen und auswerten.",
+        "Standardprozesse so dokumentieren, dass sie jede:r versteht.",
+        "Proaktive Informations-Updates im Intranet anbieten.",
+        "Führungskräfte bitten, Feedback zu HR-Prozessen zu geben.",
+        "Erste Verbesserungsvorschläge zum Arbeitsstil entwickeln.",
+        "Über neue Methoden und die 'HR-Zukunft' informieren.",
+        "Teamintern Ziele für moderne Arbeitsweisen festlegen.",
+        "Verantwortung für Einführung einer neuen HR-Maßnahme übernehmen."
+      ]
+    },
+    {
+      "section": "Strategische HR-Positionierung",
+      "question": "Wie geht ihr mit dem ROI eurer HR-Maßnahmen um?",
+      "answers": [
+        { "id": "A", "text": "Das messen wir bisher nicht.", "points": 1 },
+        { "id": "B", "text": "Ab und zu – z. B. bei größeren Projekten.", "points": 2 },
+        { "id": "C", "text": "Regelmäßig mit Basiskennzahlen.", "points": 3 },
+        { "id": "D", "text": "Sehr systematisch mit HR-Analytics.", "points": 4 }
+      ],
+      "checklist": [
+        "Aktuelle HR-Maßnahmen aufzählen.",
+        "Für jede Maßnahme Nutzen und Kosten grob schätzen.",
+        "Quartalsweise Tabelle zu Erfolgen/Misserfolgen führen.",
+        "Wichtige Kennzahlen (Fluktuation, Krankenstand etc.) erfassen.",
+        "Kleine Verbesserungen gezielt auf Wirkung prüfen.",
+        "Jahres-Kernziele schriftlich fixieren, Zwischenergebnisse messen.",
+        "HR-Software zur Erfolgskontrolle testen und austauschen.",
+        "Erste HR-Auswertungen durchführen und nachbereiten.",
+        "Nachdenken, wie sich Daten besser nutzen lassen.",
+        "Komplexe Analysen (Big Data, externe Beratung) angehen."
+      ]
+    },
+    {
+      "section": "Strategische HR-Positionierung",
+      "question": "Welche Rolle spielt HR in der mittelfristigen Unternehmensplanung?",
+      "answers": [
+        { "id": "A", "text": "Gar keine – wir werden im Nachhinein informiert.", "points": 1 },
+        { "id": "B", "text": "Wir werden teilweise eingebunden.", "points": 2 },
+        { "id": "C", "text": "Wir gestalten die Planung aktiv mit.", "points": 3 },
+        { "id": "D", "text": "Wir treiben die Planung proaktiv voran.", "points": 4 }
+      ],
+      "checklist": [
+        "Nächste Unternehmensplanung zum Einblick anfordern.",
+        "Wünsche/Vorschläge aus HR dem Management auflisten.",
+        "Frühzeitig Personalbedarfe bei Führungskräften abklären.",
+        "HR als festen Bestandteil in Planungs-Besprechungen anfragen.",
+        "Jährliche Zielvereinbarungen mit Geschäftsleitung vereinbaren.",
+        "Engere Abstimmung mit anderen Bereichen suchen.",
+        "Personalplanungen dokumentieren und besprechen.",
+        "HR-Vertretung für alle wichtigen Planungsgespräche sicherstellen.",
+        "Trends/Verbesserungen gemeinsam mit Führungskräften suchen.",
+        "Proaktiver Part bei Strategie- und Veränderungsprojekten werden."
+      ]
+    },
+    {
+      "section": "Digitalisierung & Technologie",
+      "question": "Wie digital ist euer HR heute aufgestellt?",
+      "answers": [
+        { "id": "A", "text": "Viel läuft noch auf Papier.", "points": 1 },
+        { "id": "B", "text": "Wir nutzen grundlegende Tools wie Excel oder E-Mail.", "points": 2 },
+        { "id": "C", "text": "Wir arbeiten mit einer integrierten HR-Software.", "points": 3 },
+        { "id": "D", "text": "Unsere Systeme sind cloudbasiert mit Analysefunktionen.", "points": 4 },
+        { "id": "E", "text": "Unsere Prozesse sind KI-gestützt und automatisiert.", "points": 5 }
+      ],
+      "checklist": [
+        "Papierbasierte Abläufe identifizieren und priorisieren.",
+        "Excel- und E-Mail-Prozesse in einer Liste dokumentieren.",
+        "Grundlegende digitale HR-Tools recherchieren.",
+        "Einfache, integrierte HR-Software testen und auswählen.",
+        "Digitale Personalakten Schritt für Schritt einführen.",
+        "Self-Service-Portale für Mitarbeitende aufbauen.",
+        "Cloud-basierte Tools im kleinen Maßstab durch HR testen.",
+        "Pilot für People Analytics Plattform starten.",
+        "Echtzeit-Reporting und Dashboards implementieren.",
+        "KI-gestützte und automatisierte HR-Prozesse ausrollen."
+      ]
+    },
+    {
+      "section": "Digitalisierung & Technologie",
+      "question": "Kommt bei euch schon Künstliche Intelligenz zum Einsatz?",
+      "answers": [
+        { "id": "A", "text": "Nein, aktuell kein Thema.", "points": 1 },
+        { "id": "B", "text": "Noch nicht – wir schauen uns aber um.", "points": 2 },
+        { "id": "C", "text": "Erste Pilot-Tools sind im Test.", "points": 3 },
+        { "id": "D", "text": "KI ist in bestimmten HR-Bereichen etabliert.", "points": 4 },
+        { "id": "E", "text": "KI ist strategisch im gesamten HR integriert.", "points": 5 }
+      ],
+      "checklist": [
+        "Überblick verschaffen, wo im HR grundsätzlich KI sinnvoll sein könnte.",
+        "Austausch zu ersten Schritten im Bereich KI suchen.",
+        "KI-Piloten (z.B. Chatbots) testen.",
+        "Machbarkeit von KI-Tools für einzelne Aufgaben prüfen.",
+        "Sicherheit und Datenschutzaspekte abklopfen.",
+        "Erste Trainings zur Nutzung von KI im Alltag besuchen.",
+        "Erfahrungen mit KI-Tools im Kollegenkreis teilen.",
+        "KI-Basierte Tools z.B. für Bewerberauswahl implementieren.",
+        "Vorausschauende Planungs- und Analytiktools regelmäßig nutzen.",
+        "KI-Workflows strategisch in alle HR-Kernthemen integrieren."
+      ]
+    },
+    {
+      "section": "Digitalisierung & Technologie",
+      "question": "Wie datenbasiert trefft ihr Personalentscheidungen?",
+      "answers": [
+        { "id": "A", "text": "Meist aus dem Bauch heraus.", "points": 1 },
+        { "id": "B", "text": "Wir nutzen einfache Statistiken.", "points": 2 },
+        { "id": "C", "text": "Wir erstellen regelmäßig Auswertungen.", "points": 3 },
+        { "id": "D", "text": "Wir planen vorausschauend mit Daten.", "points": 4 },
+        { "id": "E", "text": "Wir arbeiten in Echtzeit mit HR-Daten.", "points": 5 }
+      ],
+      "checklist": [
+        "Bisherige Entscheidungsprozesse schriftlich festhalten.",
+        "Einfache Statistiken regelmäßig erstellen (z. B. Bewerbungen pro Monat).",
+        "Entscheidungen auf Grundlage vorhandener Daten besprechen.",
+        "Wichtige Kennzahlen regelmäßig auswerten und kommunizieren.",
+        "Self-Service-Portale für Personaldaten einführen.",
+        "Schulung zum Umgang mit HR-Daten absolvieren.",
+        "Entscheidungsschablonen mit Auswertungsfeldern entwickeln.",
+        "Regelmäßig KI-gestützte Tools für Entscheidungen testen.",
+        "Personalprognosen und -planungen auf Datenbasis machen.",
+        "Echtzeitdaten für strategische Personalentscheidungen nutzen."
+      ]
+    },
+    {
+      "section": "Digitalisierung & Technologie",
+      "question": "Können Mitarbeitende digital Verträge unterschreiben?",
+      "answers": [
+        { "id": "A", "text": "Nein, das läuft nur auf Papier.", "points": 1 },
+        { "id": "B", "text": "Teilweise digital, aber mit Unterschrift auf Papier.", "points": 2 },
+        { "id": "C", "text": "Ja, das funktioniert komplett digital.", "points": 3 },
+        { "id": "D", "text": "Ja, inklusive automatisiertem Onboarding.", "points": 4 }
+      ],
+      "checklist": [
+        "Papierbasierte Verträge erfassen und prüfen.",
+        "Teilweise digitale Prozesse im Team dokumentieren.",
+        "Digitale Unterschriftstools recherchieren.",
+        "Prozess für digitale Personalakten aufsetzen.",
+        "Den ersten Vertrag testweise digital unterschreiben lassen.",
+        "Mitarbeitende auf digitale Tools vorbereiten.",
+        "Automatisiertes Onboarding anstoßen.",
+        "Erfahrungen regelmäßig evaluieren und nachjustieren.",
+        "Digitale Abläufe in der Unternehmenskultur kommunizieren.",
+        "Vollständig digitalisierte und automatisierte Vertrags- und Onboarding-Prozesse einführen."
+      ]
+    },
+    {
+      "section": "Digitalisierung & Technologie",
+      "question": "Wie unterstützt ihr Mitarbeitende digital im Alltag?",
+      "answers": [
+        { "id": "A", "text": "Über klassische Kommunikation (z. B. Aushänge).", "points": 1 },
+        { "id": "B", "text": "Per Mail oder Intranet.", "points": 2 },
+        { "id": "C", "text": "Mit Self-Service-Portalen.", "points": 3 },
+        { "id": "D", "text": "Über Apps oder Chatbots.", "points": 4 },
+        { "id": "E", "text": "Mit KI-gestützter, personalisierter Begleitung.", "points": 5 }
+      ],
+      "checklist": [
+        "Bestehende Informationswege (Aushänge, E-Mails) prüfen.",
+        "Intranet oder Mailingliste für wichtige Infos einrichten.",
+        "Self-Service-Portal mit wichtigen Formularen und Infos bauen.",
+        "Digitale Tools zur Terminvereinbarung etablieren.",
+        "FAQ zu typischen Personalfragen digital bereitstellen.",
+        "Kleine Erklärvideos zu häufigen Prozessen aufnehmen.",
+        "Interne Apps oder Chatbots testen.",
+        "Rückmeldungen zu digitalen Angeboten einholen & auswerten.",
+        "KI-gestützte, personalisierte Hilfen pilotieren.",
+        "Alles digital & maßgeschneidert: KI-Begleitung im Alltag ausbauen."
+      ]
+    },
+    {
+      "section": "Führungskultur & New Work",
+      "question": "Wie wird bei euch geführt?",
+      "answers": [
+        { "id": "A", "text": "Klassisch hierarchisch und direktiv.", "points": 1 },
+        { "id": "B", "text": "Teils traditionell, teils moderner.", "points": 2 },
+        { "id": "C", "text": "Kooperativ mit flachen Hierarchien.", "points": 3 },
+        { "id": "D", "text": "Agil, mit viel Eigenverantwortung.", "points": 4 },
+        { "id": "E", "text": "Inspirierend und auf Empowerment ausgerichtet.", "points": 5 }
+      ],
+      "checklist": [
+        "Rückmeldung zur bestehenden Führung einholen.",
+        "Grundregeln für Führung und Zusammenarbeit festlegen.",
+        "Regelmäßige Teammeetings organisieren.",
+        "Feedbackgespräche fest im Kalender verankern.",
+        "Vorgesetzte erhalten Training zu kooperativer Führung.",
+        "Flexible Arbeitszeitmodelle testen.",
+        "Flache Hierarchien im Arbeitsalltag etablieren.",
+        "Agiles Führungsverständnis diskutieren und erproben.",
+        "Eigenverantwortung der Teams gezielt stärken.",
+        "Führungskräfte zu Vorbildern für Empowerment entwickeln."
+      ]
+    },
+    {
+      "section": "Führungskultur & New Work",
+      "question": "Wie sieht eure Feedback-Kultur aus?",
+      "answers": [
+        { "id": "A", "text": "Ein Gespräch pro Jahr reicht.", "points": 1 },
+        { "id": "B", "text": "Feedback gibt's halbjährlich.", "points": 2 },
+        { "id": "C", "text": "Wir checken regelmäßig ein.", "points": 3 },
+        { "id": "D", "text": "Feedback ist im Alltag fest verankert.", "points": 4 },
+        { "id": "E", "text": "Wir nutzen digitale Tools für Echtzeit-Feedback.", "points": 5 }
+      ],
+      "checklist": [
+        "Mindestens einmal im Jahr ein Feedbackgespräch führen.",
+        "Zeitraum auf alle sechs Monate ausweiten.",
+        "Feedback in regelmäßigen Teamrunden einbauen.",
+        "Führungskräfte für kontinuierliches Feedback sensibilisieren.",
+        "Feedbackkartensets im Alltag einführen.",
+        "1:1-Gespräche als Standard etablieren.",
+        "360-Grad-Feedback testen (z.B. klein im Team starten).",
+        "Kontinuierliche Feedbackschleifen dokumentieren.",
+        "Echtzeit-Feedbacktools ausprobieren.",
+        "KI-gestützte Feedback-Auswertung und Entwicklung implementieren."
+      ]
+    },
+    {
+      "section": "Führungskultur & New Work",
+      "question": "Wie flexibel ist euer Arbeiten gestaltet?",
+      "answers": [
+        { "id": "A", "text": "Feste Arbeitszeiten, feste Plätze.", "points": 1 },
+        { "id": "B", "text": "Flexible Zeiten, aber fester Ort.", "points": 2 },
+        { "id": "C", "text": "Homeoffice ist gelegentlich möglich.", "points": 3 },
+        { "id": "D", "text": "Hybrides Arbeiten ist etabliert.", "points": 4 },
+        { "id": "E", "text": "Voll flexibel – Arbeitszeit und -ort nach Bedarf.", "points": 5 }
+      ],
+      "checklist": [
+        "Bestehende Arbeitszeiten auf Flexibilität prüfen.",
+        "Erste Homeoffice-Tage erproben.",
+        "Flexible Arbeitszeitmodelle anbieten.",
+        "Feste Homeoffice-Regeln ausarbeiten.",
+        "Teamfeedback zu Flexibilität einholen.",
+        "Hybride Arbeitsmodelle testen.",
+        "Vertrauensarbeitszeit erarbeiten und pilotieren.",
+        "Meetings digital und flexibel gestalten.",
+        "Work-Life-Balance in den Fokus der Führung rücken.",
+        "Vollständige Flexibilisierung von Arbeitszeit und Arbeitsort leben."
+      ]
+    },
+    {
+      "section": "Führungskultur & New Work",
+      "question": "Wie stark fühlen sich eure Mitarbeitenden emotional verbunden?",
+      "answers": [
+        { "id": "A", "text": "Keine Ahnung – das wird nicht erhoben.", "points": 1 },
+        { "id": "B", "text": "Eher schwach – viele kündigen recht schnell.", "points": 2 },
+        { "id": "C", "text": "Durchwachsen – manche bleiben, andere gehen.", "points": 3 },
+        { "id": "D", "text": "Stark – viele bleiben lang im Unternehmen.", "points": 4 },
+        { "id": "E", "text": "Sehr stark – unsere Leute sind echte Botschafter:innen.", "points": 5 }
+      ],
+      "checklist": [
+        "Befragung zur Mitarbeiterzufriedenheit durchführen.",
+        "Onboarding-Prozesse für besseren Start fördern.",
+        "Kleine Anerkennungsinitiativen starten.",
+        "Regelmäßige Stay-Interviews umsetzen.",
+        "Transparente Firmenkommunikation stärken.",
+        "Team-Events für mehr Zusammenhalt organisieren.",
+        "Entwicklungsmöglichkeiten klar kommunizieren.",
+        "Flexible Arbeitsmodelle fördern.",
+        "Wellbeing-Programme Schritt für Schritt etablieren.",
+        "Mitarbeitende als Markenbotschafter fördern."
+      ]
+    },
+    {
+      "section": "Führungskultur & New Work",
+      "question": "Wie entwickelt ihr Führungskräfte weiter?",
+      "answers": [
+        { "id": "A", "text": "Gar nicht strukturiert.", "points": 1 },
+        { "id": "B", "text": "Es gibt gelegentlich Seminare.", "points": 2 },
+        { "id": "C", "text": "Wir haben regelmäßige Entwicklungsprogramme.", "points": 3 },
+        { "id": "D", "text": "Coaching und Mentoring sind etabliert.", "points": 4 },
+        { "id": "E", "text": "Führung ist bei uns eine kontinuierliche Reise.", "points": 5 }
+      ],
+      "checklist": [
+        "Führungskräfte-Liste erstellen, Weiterbildungsbedarf erheben.",
+        "Gezielte Einzelcoachings anbieten.",
+        "Feedbackrunden für Führungskräfte etablieren.",
+        "Regelmäßige interne Leadership-Workshops durchführen.",
+        "Peer-Learning-Gruppen aufbauen.",
+        "Digitales Leadership-Lernportal bereitstellen.",
+        "360-Grad-Feedback-Instrument einführen.",
+        "Entwicklungspläne mit klaren Zielen formulieren.",
+        "Cross-Mentoring-Programme anbieten.",
+        "Leadership Academy als Lernplattform implementieren."
+      ]
+    },
+    {
+      "section": "Recruiting & Talent Management",
+      "question": "Wie sehr seid ihr vom Fachkräftemangel betroffen?",
+      "answers": [
+        { "id": "A", "text": "Extrem – wir kämpfen um jede Besetzung.", "points": 1 },
+        { "id": "B", "text": "Deutlich – offene Stellen bleiben oft unbesetzt.", "points": 2 },
+        { "id": "C", "text": "Spürbar – wir bekommen weniger qualifizierte Bewerbungen.", "points": 3 },
+        { "id": "D", "text": "In ein paar Bereichen wird es eng.", "points": 4 },
+        { "id": "E", "text": "Gar nicht – es bewerben sich viele.", "points": 5 }
+      ],
+      "checklist": [
+        "Arbeitgeberattraktivität analysieren.",
+        "Präsenz auf Jobportalen steigern.",
+        "Social Media Recruiting starten.",
+        "Mitarbeitende als Talentscouts fördern.",
+        "Hochschul- und Ausbildungskooperationen aufbauen.",
+        "Talent-Community etablieren.",
+        "Job-Sharing-Modelle testen.",
+        "Skill-Gap-Analysen durchführen.",
+        "Predictive Talent Planning anschieben.",
+        "Employer Branding durch Innovation und neue Projekte stärken."
+      ]
+    },
+    {
+      "section": "Recruiting & Talent Management",
+      "question": "Wie modern ist euer Recruiting?",
+      "answers": [
+        { "id": "A", "text": "Klassische Anzeigen, Bewerbungen per Mail.", "points": 1 },
+        { "id": "B", "text": "Online-Portale und Social Media.", "points": 2 },
+        { "id": "C", "text": "Active Sourcing und Employer Branding sind am Start.", "points": 3 },
+        { "id": "D", "text": "KI-Tools unterstützen die Auswahl.", "points": 4 },
+        { "id": "E", "text": "Unser Recruiting ist datengetrieben und vorausschauend.", "points": 5 }
+      ],
+      "checklist": [
+        "Klassische Kanäle (Mailanzeigen) kritisch prüfen.",
+        "Online-Portale gezielt einsetzen.",
+        "Präsenz in sozialen Netzwerken erhöhen.",
+        "Karriereseite mit Self-Service einrichten.",
+        "Automatisierungen für Bewerberkommunikation testen.",
+        "Active Sourcing strukturiert einführen.",
+        "Chatbots für Bewerbungsvorgänge pilotieren.",
+        "KI-Analyse für Kandidatenmatching erproben.",
+        "Data-Dashboards im Recruiting auswerten.",
+        "Komplett datengetriebenes Recruiting mit KI und Optimierung realisieren."
+      ]
+    },
+    {
+      "section": "Recruiting & Talent Management",
+      "question": "Wie läuft euer Onboarding ab?",
+      "answers": [
+        { "id": "A", "text": "Ein Tag, viel Papierkram.", "points": 1 },
+        { "id": "B", "text": "Eine Woche strukturierte Einarbeitung.", "points": 2 },
+        { "id": "C", "text": "Ein 30-Tage-Onboarding mit Plan.", "points": 3 },
+        { "id": "D", "text": "90-Tage-Journey mit Mentoring.", "points": 4 },
+        { "id": "E", "text": "Eine digitale, individuelle Onboarding-Experience.", "points": 5 }
+      ],
+      "checklist": [
+        "Onboarding-Checkliste für erste Tage erstellen.",
+        "Welcome-Kits zusammenstellen und verteilen.",
+        "Buddy-System starten.",
+        "Interaktive E-Learnings bereitstellen.",
+        "Einführungstreffen mit allen Teams organisieren.",
+        "Onboarding-Feedback nach 30 Tagen einholen.",
+        "Roadmaps für 90-Tage-Onboardings erstellen.",
+        "Cross-Department-Blicke ermöglichen.",
+        "Digitale Tools zur Onboarding-Begleitung nutzen.",
+        "Personalisierte, gamifizierte Onboarding-Experience realisieren."
+      ]
+    },
+    {
+      "section": "Recruiting & Talent Management",
+      "question": "Wie sorgt ihr für Mitarbeiterbindung?",
+      "answers": [
+        { "id": "A", "text": "Wir reagieren, wenn jemand kündigt.", "points": 1 },
+        { "id": "B", "text": "Es gibt gelegentliche Umfragen.", "points": 2 },
+        { "id": "C", "text": "Wir führen regelmäßig Stay-Interviews.", "points": 3 },
+        { "id": "D", "text": "Wir nutzen Analytics zur Kündigungsprävention.", "points": 4 },
+        { "id": "E", "text": "Unsere Maßnahmen sind individuell und vorbeugend.", "points": 5 }
+      ],
+      "checklist": [
+        "Kündigungs-Praxis dokumentieren.",
+        "Stay-Interviews regelmäßig führen.",
+        "Anerkennungsprogramme für Meilensteine einrichten.",
+        "Aktionsboxen für Feedback aufstellen.",
+        "Individuelle Entwicklungspläne erstellen.",
+        "Job-Rotation als Entwicklungschance nutzen.",
+        "Gesundheitsworkshops und Team-Events anbieten.",
+        "Flexible Karrierepfade transparent machen.",
+        "Bonusmodelle und Beteiligung kommunizieren.",
+        "KI-Tools zur Fluktuationsprognose und individuelle Bindungsmaßnahmen einsetzen."
+      ]
+    },
+    {
+      "section": "Recruiting & Talent Management",
+      "question": "Wie unterstützt ihr die Entwicklung eurer Talente?",
+      "answers": [
+        { "id": "A", "text": "Leider bisher gar nicht strukturiert.", "points": 1 },
+        { "id": "B", "text": "Es gibt ein jährliches Weiterbildungsbudget.", "points": 2 },
+        { "id": "C", "text": "Es werden individuelle Lernziele festgelegt.", "points": 3 },
+        { "id": "D", "text": "Interne Mentor:innen begleiten den Prozess.", "points": 4 },
+        { "id": "E", "text": "Wir nutzen KI-basierte Lernpfade.", "points": 5 }
+      ],
+      "checklist": [
+        "Bedarfe & Budget für Talententwicklung erheben.",
+        "Kurzworkshops für tragende Kompetenzen anbieten.",
+        "Interne Lernplattform initial einrichten.",
+        "Lernzielvorlagen bereitstellen.",
+        "Individuelle Lernpfade dokumentieren.",
+        "Peer-Learning-Initiativen starten.",
+        "Kompetenzprofile und Entwicklungspläne erstellen.",
+        "E-Mentoring pilotieren.",
+        "Adaptive Lern-Technologien einsetzen.",
+        "Internationale Entwicklung durch Academy/Programme einführen."
+      ]
+    },
+    {
+      "section": "Zukunftsfähigkeit & Wandel",
+      "question": "Wie gut gelingt euch Change Management?",
+      "answers": [
+        { "id": "A", "text": "Veränderungen stoßen auf Ablehnung.", "points": 1 },
+        { "id": "B", "text": "Es gibt viel Widerstand.", "points": 2 },
+        { "id": "C", "text": "Mal klappt es besser, mal schlechter.", "points": 3 },
+        { "id": "D", "text": "Wir gehen Veränderungen systematisch an.", "points": 4 },
+        { "id": "E", "text": "Wandel ist Teil unserer Kultur.", "points": 5 }
+      ],
+      "checklist": [
+        "Workshops zur Sensibilisierung für Veränderung durchführen.",
+        "Veränderungsbereite Teammitglieder (Change Champions) benennen.",
+        "Kommunikationspläne für Veränderungen erstellen.",
+        "Risiken dokumentieren und Folgen einschätzen.",
+        "Steering- oder Taskforces für Change vorbereiten.",
+        "Stakeholder-Mapping für Veränderungen durchführen.",
+        "Innovationssprints für Change-Projekte planen.",
+        "Regelmäßige Feedbackstrecken aufsetzen.",
+        "Digitale Zusatz- und Diagnose-Tools testen.",
+        "Zertifizierte Change-Programme für Exzellenz einführen."
+      ]
+    },
+    {
+      "section": "Zukunftsfähigkeit & Wandel",
+      "question": "Welche Rolle spielt Nachhaltigkeit in eurer HR-Arbeit?",
+      "answers": [
+        { "id": "A", "text": "Keine – das Thema spielt keine Rolle.", "points": 1 },
+        { "id": "B", "text": "Wird gelegentlich angesprochen.", "points": 2 },
+        { "id": "C", "text": "Ist ein Entscheidungsfaktor.", "points": 3 },
+        { "id": "D", "text": "Ist zentraler Teil unserer HR-Strategie.", "points": 4 },
+        { "id": "E", "text": "ESG-Kriterien sind in allen HR-Prozessen verankert.", "points": 5 }
+      ],
+      "checklist": [
+        "Mitarbeiter für Nachhaltigkeit sensibilisieren.",
+        "Leitlinien für umweltfreundliches HR erarbeiten.",
+        "Papierloses Büro schrittweise einführen.",
+        "Interne Nachhaltigkeitskampagnen starten.",
+        "Nachhaltigkeit in Ziele und Vereinbarungen aufnehmen.",
+        "Lieferanten/Partner auf nachhaltige Optionen prüfen.",
+        "CO₂-Reports für HR-Prozesse anlegen.",
+        "Nachhaltigkeitsteam gründen.",
+        "Green Recruiting und Circular-Economy-Projekte starten.",
+        "ESG-Programme/Science-Based-Targets in die HR-Strategie integrieren."
+      ]
+    },
+    {
+      "section": "Zukunftsfähigkeit & Wandel",
+      "question": "Wie wichtig ist euch Wellbeing?",
+      "answers": [
+        { "id": "A", "text": "Spielt bisher keine große Rolle.", "points": 1 },
+        { "id": "B", "text": "Es gibt erste Gesundheitsangebote.", "points": 2 },
+        { "id": "C", "text": "Wir haben ein betriebliches Gesundheitsmanagement.", "points": 3 },
+        { "id": "D", "text": "Wir verfolgen ein umfassendes Wellbeing-Konzept.", "points": 4 },
+        { "id": "E", "text": "Wellbeing ist ein strategischer Faktor.", "points": 5 }
+      ],
+      "checklist": [
+        "Gesundheitschecks und Infomails anbieten.",
+        "Einfachen Kurs (Yoga, Achtsamkeit) organisieren.",
+        "Pausen und Erholung im Arbeitsalltag fördern.",
+        "Gesundheitsbudgets pro Mitarbeitendem bereitstellen.",
+        "Work-Life-Balance-Trainings durchführen.",
+        "Betriebliches Gesundheitsmanagement fest etablieren.",
+        "Dashboard für Wellbeing-Initiativen aufsetzen.",
+        "Psychologische Unterstützungsangebote schaffen.",
+        "Flexible Sabbatical- und Wellbeing-Modelle testen.",
+        "Wellbeing-Analytik strategisch für das HR nutzen."
+      ]
+    },
+    {
+      "section": "Zukunftsfähigkeit & Wandel",
+      "question": "Wie gut seid ihr auf zukünftige Arbeitswelten vorbereitet?",
+      "answers": [
+        { "id": "A", "text": "Wir reagieren auf aktuelle Anforderungen.", "points": 1 },
+        { "id": "B", "text": "Es gibt Pläne für 1–2 Jahre.", "points": 2 },
+        { "id": "C", "text": "Wir denken in 3–5 Jahreszeiträumen.", "points": 3 },
+        { "id": "D", "text": "Wir beobachten Trends und planen Szenarien.", "points": 4 },
+        { "id": "E", "text": "Wir gestalten aktiv die Arbeitswelt von morgen.", "points": 5 }
+      ],
+      "checklist": [
+        "Trend-Scouting im Unternehmen starten.",
+        "Szenario-Workshops zu kommenden Arbeitsformen durchführen.",
+        "Basale Digital-Trainings für alle anbieten.",
+        "Innovationsideen-Datenbank etablieren.",
+        "Austausch zu Best Practices aus anderen Branchen ermöglichen.",
+        "Experimentier-Labs für neue Arbeitsmodelle testen.",
+        "Mitarbeitende an 'Living Labs' für Zukunftsthemen beteiligen.",
+        "Partnerschaften mit Zukunftsforschung/Startups eingehen.",
+        "Simulationstools zur Zukunftsplanung pilotieren.",
+        "Adaptive Organisationsmodelle und digitale Zwillinge für HR-Prozesse entwickeln und umsetzen."
+      ]
+    },
+    {
+      "section": "Zukunftsfähigkeit & Wandel",
+      "question": "Wie innovativ ist euer HR-Team?",
+      "answers": [
+        { "id": "A", "text": "Wir setzen auf bewährte Methoden.", "points": 1 },
+        { "id": "B", "text": "Es gibt hier und da neue Ideen.", "points": 2 },
+        { "id": "C", "text": "Pilotprojekte sind Teil unseres Alltags.", "points": 3 },
+        { "id": "D", "text": "Wir arbeiten strukturiert an Innovationen.", "points": 4 },
+        { "id": "E", "text": "Wir gelten als Vorreiter in HR.", "points": 5 }
+      ],
+      "checklist": [
+        "Team-Workshops für neue HR-Ideen organisieren.",
+        "Routiniert Pilotprojekte im eigenen Team durchführen.",
+        "Kreativitätstrainings für Mitarbeitende anbieten.",
+        "Cross-Team-Ideenwettbewerbe aufsetzen.",
+        "Interne Innovationstage oder Hackathons veranstalten.",
+        "Startup-Kooperationen austesten.",
+        "Prototyping-Werkzeuge und neue Methoden verwenden.",
+        "Innovationspartnerschaften mit anderen Abteilungen ermöglichen.",
+        "KI für Ideengenerierung nutzen.",
+        "Innovations-Exzellenz und Intrapreneurship zum HR-Standard machen."
+      ]
+    }
+  ]
+}
