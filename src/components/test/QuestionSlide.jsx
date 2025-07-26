@@ -1,5 +1,4 @@
 import React from 'react';
-import {motion} from 'framer-motion';
 import SafeIcon from '../../common/SafeIcon';
 import * as FiIcons from 'react-icons/fi';
 
@@ -9,28 +8,15 @@ const QuestionSlide = ({question, onAnswer, onPrevious, selectedAnswer}) => {
   return (
     <div className="text-center text-white">
       {/* Question Text */}
-      <motion.h2
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 0.3}}
-        className="text-2xl md:text-3xl font-bold mb-10 leading-tight max-w-3xl mx-auto"
-      >
+      <h2 className="text-2xl md:text-3xl font-bold mb-10 leading-tight max-w-3xl mx-auto">
         {question.question}
-      </motion.h2>
+      </h2>
 
       {/* Answer Options */}
-      <motion.div
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 0.3}}
-        className="space-y-3 mb-10"
-      >
-        {question.answers.map((answer, index) => (
-          <motion.button
+      <div className="space-y-3 mb-10">
+        {question.answers.map((answer) => (
+          <button
             key={answer.id}
-            initial={{opacity: 0}}
-            animate={{opacity: 1}}
-            transition={{duration: 0.3}}
             onClick={() => onAnswer(question.question, answer.id, answer.points)}
             className={`w-full max-w-2xl mx-auto p-4 rounded-xl text-left transition-all duration-300 border-2 group ${
               selectedAnswer === answer.id
@@ -60,17 +46,12 @@ const QuestionSlide = ({question, onAnswer, onPrevious, selectedAnswer}) => {
                 </span>
               </div>
             </div>
-          </motion.button>
+          </button>
         ))}
-      </motion.div>
+      </div>
 
       {/* Navigation */}
-      <motion.div
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 0.3}}
-        className="flex justify-center"
-      >
+      <div className="flex justify-center">
         <button
           onClick={onPrevious}
           className="flex items-center gap-2 text-white/70 hover:text-white transition-colors duration-300 px-4 py-2 rounded-lg hover:bg-white/10"
@@ -78,7 +59,7 @@ const QuestionSlide = ({question, onAnswer, onPrevious, selectedAnswer}) => {
           <SafeIcon icon={FiArrowLeft} className="text-lg" />
           Zurück
         </button>
-      </motion.div>
+      </div>
     </div>
   );
 };

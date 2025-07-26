@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React, {useState} from 'react';
 import SafeIcon from '../../common/SafeIcon';
 import * as FiIcons from 'react-icons/fi';
-import { sendResults } from '../../utils/emailService';
+import {sendResults} from '../../utils/emailService';
 
-const { FiMail, FiCheck, FiAlertCircle, FiX, FiLoader } = FiIcons;
+const {FiMail, FiCheck, FiAlertCircle, FiX, FiLoader} = FiIcons;
 
-const EmailCapture = ({ evaluation, onEmailSubmitted, onCancel }) => {
+const EmailCapture = ({evaluation, onEmailSubmitted, onCancel}) => {
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState('');
@@ -37,13 +36,14 @@ const EmailCapture = ({ evaluation, onEmailSubmitted, onCancel }) => {
     }
 
     setIsSubmitting(true);
+
     try {
       // Get the 3 lowest scoring sections and their lowest scoring questions
       const badQuestions = evaluation.badQuestions || [];
-      
+
       const result = await sendResults(
-        email, 
-        evaluation.type, 
+        email,
+        evaluation.type,
         {
           totalScore: evaluation.totalScore,
           maxScore: evaluation.maxScore,
@@ -51,7 +51,7 @@ const EmailCapture = ({ evaluation, onEmailSubmitted, onCancel }) => {
         },
         badQuestions
       );
-      
+
       if (result.success) {
         onEmailSubmitted();
       } else {
@@ -65,12 +65,7 @@ const EmailCapture = ({ evaluation, onEmailSubmitted, onCancel }) => {
   };
 
   return (
-    <motion.div
-      initial={{ scale: 0.9, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 0.3 }}
-      className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8 border border-white/20"
-    >
+    <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8 border border-white/20">
       <div className="flex justify-between items-start mb-6">
         <div className="flex items-center gap-3">
           <SafeIcon icon={FiMail} className="text-secondary text-2xl" />
@@ -111,14 +106,10 @@ const EmailCapture = ({ evaluation, onEmailSubmitted, onCancel }) => {
         </div>
 
         {error && (
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="flex items-center gap-2 text-red-400 text-sm"
-          >
+          <div className="flex items-center gap-2 text-red-400 text-sm">
             <SafeIcon icon={FiAlertCircle} className="text-lg" />
             {error}
-          </motion.div>
+          </div>
         )}
 
         <button
@@ -143,7 +134,7 @@ const EmailCapture = ({ evaluation, onEmailSubmitted, onCancel }) => {
       <p className="text-xs text-white/60 mt-4 text-center">
         Du erhältst eine E-Mail mit deinen personalisierten Tipps. Keine Werbung, keine weiteren E-Mails ohne deine Zustimmung.
       </p>
-    </motion.div>
+    </div>
   );
 };
 

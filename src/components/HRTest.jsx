@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
+import {motion, AnimatePresence} from 'framer-motion';
+import {useNavigate} from 'react-router-dom';
 import SafeIcon from '../common/SafeIcon';
 import * as FiIcons from 'react-icons/fi';
 import questionsData from '../data/questions.json';
@@ -11,7 +11,7 @@ import QuestionSlide from './test/QuestionSlide';
 import ResultsPage from './test/ResultsPage';
 import ProgressBar from './test/ProgressBar';
 
-const { FiArrowLeft } = FiIcons;
+const {FiArrowLeft} = FiIcons;
 
 const HRTest = () => {
   const navigate = useNavigate();
@@ -23,7 +23,6 @@ const HRTest = () => {
   const [showResults, setShowResults] = useState(false);
   const [evaluation, setEvaluation] = useState(null);
   const [lowestScoringSections, setLowestScoringSections] = useState([]);
-  const [direction, setDirection] = useState('forward');
 
   // Group questions by section
   const sections = {};
@@ -36,11 +35,26 @@ const HRTest = () => {
 
   // Section information for display
   const sectionInfo = {
-    'Strategische HR-Positionierung': { name: 'Strategie', description: 'Wie strategisch ist deine HR-Arbeit heute aufgestellt? Welche Rolle spielt HR in deinem Unternehmen?' },
-    'Digitalisierung & Technologie': { name: 'Digitalisierung', description: 'Wie digital arbeitet ihr bereits? Von Tools bis zur KI - hier geht\'s um eure technische Ausstattung.' },
-    'Führungskultur & New Work': { name: 'Führungskultur', description: 'Wie wird bei euch geführt? Wie flexibel und modern ist eure Arbeitskultur?' },
-    'Recruiting & Talent Management': { name: 'Recruiting', description: 'Wie findet und entwickelt ihr eure Talente? Vom Recruiting bis zur Mitarbeiterbindung.' },
-    'Zukunftsfähigkeit & Wandel': { name: 'Zukunftsfähigkeit', description: 'Wie innovativ und zukunftsorientiert ist euer HR? Change Management und Nachhaltigkeit im Fokus.' }
+    'Strategische HR-Positionierung': {
+      name: 'Strategie',
+      description: 'Wie strategisch ist deine HR-Arbeit heute aufgestellt? Welche Rolle spielt HR in deinem Unternehmen?'
+    },
+    'Digitalisierung & Technologie': {
+      name: 'Digitalisierung',
+      description: 'Wie digital arbeitet ihr bereits? Von Tools bis zur KI - hier geht\'s um eure technische Ausstattung.'
+    },
+    'Führungskultur & New Work': {
+      name: 'Führungskultur',
+      description: 'Wie wird bei euch geführt? Wie flexibel und modern ist eure Arbeitskultur?'
+    },
+    'Recruiting & Talent Management': {
+      name: 'Recruiting',
+      description: 'Wie findet und entwickelt ihr eure Talente? Vom Recruiting bis zur Mitarbeiterbindung.'
+    },
+    'Zukunftsfähigkeit & Wandel': {
+      name: 'Zukunftsfähigkeit',
+      description: 'Wie innovativ und zukunftsorientiert ist euer HR? Change Management und Nachhaltigkeit im Fokus.'
+    }
   };
 
   // Initialize slides
@@ -48,16 +62,16 @@ const HRTest = () => {
     const allSlides = [];
     
     // Add intro slide
-    allSlides.push({ type: 'intro' });
+    allSlides.push({type: 'intro'});
     
     // Add section intros and questions
     Object.entries(sections).forEach(([sectionName, questions]) => {
       // Add section intro
-      allSlides.push({ type: 'section-intro', section: sectionName });
+      allSlides.push({type: 'section-intro', section: sectionName});
       
       // Add questions for this section
       questions.forEach(question => {
-        allSlides.push({ type: 'question', question });
+        allSlides.push({type: 'question', question});
       });
     });
     
@@ -67,7 +81,7 @@ const HRTest = () => {
     const savedProgress = localStorage.getItem('hr-test-progress');
     if (savedProgress) {
       try {
-        const { currentSlideIndex: savedIndex, answers: savedAnswers } = JSON.parse(savedProgress);
+        const {currentSlideIndex: savedIndex, answers: savedAnswers} = JSON.parse(savedProgress);
         setCurrentSlideIndex(savedIndex);
         setAnswers(savedAnswers);
       } catch (error) {
@@ -78,21 +92,14 @@ const HRTest = () => {
 
   // Save progress
   useEffect(() => {
-    localStorage.setItem('hr-test-progress', JSON.stringify({
-      currentSlideIndex,
-      answers
-    }));
+    localStorage.setItem('hr-test-progress', JSON.stringify({currentSlideIndex, answers}));
   }, [currentSlideIndex, answers]);
 
   const handleAnswer = (questionId, answerId, points) => {
     const question = questionsData.questions.find(q => q.question === questionId);
     const section = question.section;
     
-    const newAnswers = {
-      ...answers,
-      [questionId]: { answerId, points, section }
-    };
-    
+    const newAnswers = {...answers, [questionId]: {answerId, points, section}};
     setAnswers(newAnswers);
     
     // Auto-advance after a short delay
@@ -103,7 +110,6 @@ const HRTest = () => {
 
   const handleNext = () => {
     if (currentSlideIndex < slides.length - 1) {
-      setDirection('forward');
       setCurrentSlideIndex(currentSlideIndex + 1);
     } else {
       calculateResults();
@@ -112,7 +118,6 @@ const HRTest = () => {
 
   const handlePrevious = () => {
     if (currentSlideIndex > 0) {
-      setDirection('backward');
       setCurrentSlideIndex(currentSlideIndex - 1);
     }
   };
@@ -157,8 +162,8 @@ const HRTest = () => {
       const answeredQuestions = sectionQuestions.filter(q => answers[q.question]);
       
       // Sort by points (ascending)
-      const sortedQuestions = answeredQuestions.sort((a, b) => 
-        (answers[a.question]?.points || 0) - (answers[b.question]?.points || 0)
+      const sortedQuestions = answeredQuestions.sort(
+        (a, b) => (answers[a.question]?.points || 0) - (answers[b.question]?.points || 0)
       );
       
       // Add the lowest scoring question to bad questions
@@ -197,7 +202,7 @@ const HRTest = () => {
   const getCurrentSlide = () => {
     if (showResults) {
       return (
-        <ResultsPage 
+        <ResultsPage
           evaluation={evaluation}
           sectionScores={sectionScores}
           sections={sections}
@@ -212,14 +217,12 @@ const HRTest = () => {
     }
 
     const slide = slides[currentSlideIndex];
-    
     switch (slide.type) {
       case 'intro':
         return <IntroSlide onStart={handleNext} />;
-        
       case 'section-intro':
         return (
-          <SectionIntro 
+          <SectionIntro
             section={slide.section}
             sectionInfo={sectionInfo}
             onNext={handleNext}
@@ -228,7 +231,6 @@ const HRTest = () => {
             isLastSection={Object.keys(sections).indexOf(slide.section) === Object.keys(sections).length - 1}
           />
         );
-        
       case 'question':
         return (
           <QuestionSlide
@@ -238,12 +240,11 @@ const HRTest = () => {
             selectedAnswer={answers[slide.question.question]?.answerId}
           />
         );
-        
       default:
         return <div>Unknown slide type</div>;
     }
   };
-  
+
   const getProgress = () => {
     // For intro slide
     if (currentSlideIndex === 0) {
@@ -261,7 +262,7 @@ const HRTest = () => {
     
     return Math.round((answeredQuestions / totalQuestions) * 100);
   };
-  
+
   const getProgressLabel = () => {
     if (currentSlideIndex === 0) {
       return 'Start';
@@ -284,7 +285,6 @@ const HRTest = () => {
           questionCount++;
         }
       }
-      
       return `Frage ${questionCount + 1} von ${questionsData.questions.length}`;
     }
     
@@ -311,32 +311,7 @@ const HRTest = () => {
       {/* Main Content */}
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="w-full max-w-4xl">
-          <AnimatePresence mode="wait" custom={direction}>
-            <motion.div
-              key={currentSlideIndex}
-              custom={direction}
-              initial={{ 
-                x: direction === 'forward' ? 100 : -100, 
-                opacity: 0 
-              }}
-              animate={{ 
-                x: 0, 
-                opacity: 1 
-              }}
-              exit={{ 
-                x: direction === 'forward' ? -100 : 100, 
-                opacity: 0 
-              }}
-              transition={{ 
-                type: "spring", 
-                stiffness: 300, 
-                damping: 30 
-              }}
-              className="w-full"
-            >
-              {getCurrentSlide()}
-            </motion.div>
-          </AnimatePresence>
+          {getCurrentSlide()}
         </div>
       </div>
     </div>

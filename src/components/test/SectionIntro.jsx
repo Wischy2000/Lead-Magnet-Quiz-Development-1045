@@ -1,5 +1,4 @@
 import React from 'react';
-import {motion} from 'framer-motion';
 import SafeIcon from '../../common/SafeIcon';
 import * as FiIcons from 'react-icons/fi';
 
@@ -10,41 +9,21 @@ const SectionIntro = ({section, sectionInfo, onNext, onPrevious, isFirstSection,
 
   return (
     <div className="text-center text-white">
-      <motion.div
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 0.3}}
-        className="mb-6"
-      >
+      <div className="mb-6">
         <span className="inline-block bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium border border-white/20">
           {sectionData.name}
         </span>
-      </motion.div>
+      </div>
 
-      <motion.h2
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 0.3}}
-        className="text-2xl md:text-4xl font-bold mb-6 leading-tight"
-      >
+      <h2 className="text-2xl md:text-4xl font-bold mb-6 leading-tight">
         {section}
-      </motion.h2>
+      </h2>
 
-      <motion.p
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 0.3}}
-        className="text-xl text-white/80 mb-12 leading-relaxed max-w-2xl mx-auto"
-      >
+      <p className="text-xl text-white/80 mb-12 leading-relaxed max-w-2xl mx-auto">
         {sectionData.description}
-      </motion.p>
+      </p>
 
-      <motion.div
-        initial={{opacity: 0}}
-        animate={{opacity: 1}}
-        transition={{duration: 0.3}}
-        className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-      >
+      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         {!isFirstSection && (
           <button
             onClick={onPrevious}
@@ -62,7 +41,7 @@ const SectionIntro = ({section, sectionInfo, onNext, onPrevious, isFirstSection,
           {isLastSection ? 'Letzte Runde!' : 'Los geht\'s'}
           <SafeIcon icon={FiArrowRight} className="text-lg group-hover:translate-x-1 transition-transform duration-300" />
         </button>
-      </motion.div>
+      </div>
     </div>
   );
 };
